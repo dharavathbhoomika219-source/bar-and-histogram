@@ -68,3 +68,28 @@ Implement ensemble models such as Random Forests or Gradient Boosting.
 Use cross-validation for more robust performance estimates.
 Optimize hyperparameters using GridSearchCV.
 Compare results with other classification algorithms (e.g., Logistic Regression, SVM).
+🗂️ Repository Structure:
+├── data/
+│   └── bank.csv
+├── notebooks/
+│   └── Decision_Tree_Classifier.ipynb
+├── src/
+│   └── model.py
+├── README.md
+├── requirements.txt
+└── results/
+    └── confusion_matrix.png
+💻 How to Run:
+Clone this repository:
+git clone https://github.com/your-username/decision-tree-customer-purchase.git
+cd decision-tree-customer-purchase
+Install dependencies:
+pip install -r requirements.txt
+Run the Jupyter notebook:
+jupyter notebook notebooks/Decision_Tree_Classifier.ipynb
+🏆 Acknowledgments
+Dataset: UCI Machine Learning Repository – Bank Marketing Data Set
+Scikit-learn documentation for Decision Tree Classifier examples
+📧 Contact
+Created by Dharavath Bhoomika
+For questions or suggestions, feel free to reach out via dharavathbhoomika219@gmail.com
